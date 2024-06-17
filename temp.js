@@ -20,7 +20,6 @@ console.log(encodedString); // Output: SGVsbG8sIFdvcmxkIQ==
 function decodeFromBase64(encodedStr) {
     const buffer = Buffer.from(encodedStr, 'base64');
     console.log(buffer)
-    console.log(buffer.toString('utf-8'))
     return buffer.toString('utf-8');
 }
 
